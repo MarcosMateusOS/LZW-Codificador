@@ -103,6 +103,9 @@ void decodificado(vector<int> entrada)
 }
 int main()
 {   
+
+    //Como compilar: g++ -o LZW -O3 *.cpp
+    //./LZW         
     string str;
     letxt(str);
     vector<int> codigo = codificador(str);
